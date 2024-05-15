@@ -1,7 +1,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 # Starlink-on-the-Road Data Set
 This repository contains the data used in our paper 
-[Starlink on the Road: A First Look at Mobile Starlink Performance in Central Europe (Preprint)](https://arxiv.org/abs/2403.13497). Due to privacy reasons, we do only offer data without locations. All measurements were conducted in and around Osnabrück City (Germany). The number of samples varies depending on the type of measurement. Details of the measurement setup are presented in our paper.
+[Starlink on the Road: A First Look at Mobile Starlink Performance in Central Europe (Preprint, accepted for publication in Proc. of the 8th Network Traffic Measurement and Analysis Conf. (TMA))](https://arxiv.org/abs/2403.13497). Due to privacy reasons, we do only offer data without locations. All measurements were conducted in and around Osnabrück City (Germany). The number of samples varies depending on the type of measurement. Details of the measurement setup are presented in our paper.
 
 ## Files
 All collected data is in the `data` folder. 
@@ -15,15 +15,13 @@ All collected data is in the `data` folder.
 
 
 ## Citation 
-D. Laniewski, E. Lanfer, S. Beginn, J. Dunker, M. Dückers, N. Aschenbruck, “Starlink on the Road: A First Look at Mobile Starlink Performance in Central Europe”, arXiv preprint arXiv:2403.13497, 2024.
+D. Laniewski, E. Lanfer, S. Beginn, J. Dunker, M. Dückers, N. Aschenbruck, “Starlink on the Road: A First Look at Mobile Starlink Performance in Central Europe”, Proc. of the 8th Network Traffic Measurement and Analysis Conf. (TMA), 2024.
 ```
-@misc{laniewski2024starlink,
+@inproceedings{laniewski2024starlink,
     title={Starlink on the Road: A First Look at Mobile Starlink Performance in Central Europe},
     author={Dominic Laniewski and Eric Lanfer and Simon Beginn and Jan Dunker and Michael Dückers and Nils Aschenbruck},
-    year={2024},
-    eprint={2403.13497},
-    archivePrefix={arXiv},
-    primaryClass={cs.NI}
+    booktitle={Proc. of the 8th Network Traffic Measurement and Analysis Conf. (TMA)},
+    year={2024}
 }
 ```
 ## License
